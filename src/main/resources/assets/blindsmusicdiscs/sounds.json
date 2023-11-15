@@ -1,0 +1,82 @@
+{
+  "music_disc.music_door": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_door",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_death": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_death",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_wet_hands": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_wet_hands",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_chris": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_chris",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_sweden": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_sweden",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_dog": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_dog",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_droopy_likes_your_face": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_droopy_likes_your_face",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_flake": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_flake",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_kyoto": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.music_intro": {
+    "sounds": [
+      {
+        "name": "blindsmusicdiscs:music_intro",
+        "stream": true
+      }
+    ]
+  }
+}

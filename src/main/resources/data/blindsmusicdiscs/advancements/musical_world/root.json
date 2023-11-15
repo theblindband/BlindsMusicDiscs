@@ -1,0 +1,72 @@
+{
+  "criteria": {
+    "jukebox": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jukebox"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_discs": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:music_discs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "disc_fragment_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:disc_fragment_5"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "small_jukeboxes": {
+      "conditions": {
+      "items": [
+        {
+          "tag": "blindsmusicdiscs:small_jukeboxes"
+        }
+      ]
+    },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "blindsmusicdiscs:textures/gui/advancements/backgrounds/amethyst_block.png",
+    "description": {
+      "translate": "advancements.musical_world.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.musical_world.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "jukebox",
+      "music_discs",
+      "disc_fragment_5",
+      "small_jukeboxes"
+    ]
+  ]
+}

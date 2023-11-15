@@ -1,0 +1,154 @@
+{
+  "parent": "blindsmusicdiscs:musical_world/root",
+  "criteria": {
+    "obtain_blocks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_blocks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_chirp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_far": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_far"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_mall": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mall"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_mellohi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mellohi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_stal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_stal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_strad": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_strad"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_ward": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_ward"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_wait": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_wait"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.musical_world.obtain_a_creeper_disc.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:arrow"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.musical_world.obtain_a_creeper_disc.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_blocks",
+      "obtain_chirp",
+      "obtain_far",
+      "obtain_mall",
+      "obtain_mellohi",
+      "obtain_stal",
+      "obtain_strad",
+      "obtain_ward",
+      "obtain_11",
+      "obtain_wait"
+    ]
+  ]
+}

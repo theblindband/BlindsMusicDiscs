@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_door",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_death",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_wet_hands",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_chris",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_droopy_likes_your_face",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_flake",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_kyoto",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blindsmusicdiscs:music_disc_intro",
+          "weight": 15
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:amethyst_shard",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 15
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

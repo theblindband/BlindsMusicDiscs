@@ -1,0 +1,108 @@
+{
+  "item.blindsmusicdiscs.small_oak_jukebox": "Small Oak Jukebox",
+  "block.blindsmusicdiscs.small_oak_jukebox": "Small Oak Jukebox",
+
+  "item.blindsmusicdiscs.small_spruce_jukebox": "Small Spruce Jukebox",
+  "block.blindsmusicdiscs.small_spruce_jukebox": "Small Spruce Jukebox",
+
+  "item.blindsmusicdiscs.small_birch_jukebox": "Small Birch Jukebox",
+  "block.blindsmusicdiscs.small_birch_jukebox": "Small Birch Jukebox",
+
+  "item.blindsmusicdiscs.small_jungle_jukebox": "Small Jungle Jukebox",
+  "block.blindsmusicdiscs.small_jungle_jukebox": "Small Jungle Jukebox",
+
+  "item.blindsmusicdiscs.small_acacia_jukebox": "Small Acacia Jukebox",
+  "block.blindsmusicdiscs.small_acacia_jukebox": "Small Acacia Jukebox",
+
+  "item.blindsmusicdiscs.small_dark_oak_jukebox": "Small Dark Oak Jukebox",
+  "block.blindsmusicdiscs.small_dark_oak_jukebox": "Small Dark Oak Jukebox",
+
+  "item.blindsmusicdiscs.small_mangrove_jukebox": "Small Mangrove Jukebox",
+  "block.blindsmusicdiscs.small_mangrove_jukebox": "Small Mangrove Jukebox",
+
+  "item.blindsmusicdiscs.small_cherry_jukebox": "Small Cherry Jukebox",
+  "block.blindsmusicdiscs.small_cherry_jukebox": "Small Cherry Jukebox",
+
+  "item.blindsmusicdiscs.small_crimson_jukebox": "Small Crimson Jukebox",
+  "block.blindsmusicdiscs.small_crimson_jukebox": "Small Crimson Jukebox",
+
+  "item.blindsmusicdiscs.small_warped_jukebox": "Small Warped Jukebox",
+  "block.blindsmusicdiscs.small_warped_jukebox": "Small Warped Jukebox",
+
+  "item.blindsmusicdiscs.music_disc_door": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_door.desc": "C418 - Door",
+
+  "item.blindsmusicdiscs.music_disc_death": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_death.desc": "C418 - Death",
+
+  "item.blindsmusicdiscs.music_disc_wet_hands": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_wet_hands.desc": "C418 - Wet Hands",
+
+  "item.blindsmusicdiscs.music_disc_chris": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_chris.desc": "C418 - Chris",
+
+  "item.blindsmusicdiscs.music_disc_sweden": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_sweden.desc": "C418 - Sweden",
+
+  "item.blindsmusicdiscs.music_disc_dog": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_dog.desc": "C418 - Dog",
+
+  "item.blindsmusicdiscs.music_disc_droopy_likes_your_face": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_droopy_likes_your_face.desc": "C418 - Droopy Likes Your Face",
+
+  "item.blindsmusicdiscs.music_disc_flake": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_flake.desc": "C418 - Flake",
+
+  "item.blindsmusicdiscs.music_disc_kyoto": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_kyoto.desc": "C418 - Kyoto",
+
+  "item.blindsmusicdiscs.music_disc_intro": "Music Disc",
+  "item.blindsmusicdiscs.music_disc_intro.desc": "C418 - Intro",
+
+
+  "itemgroup.blindsmusicdiscs": "Blind's Music Discs",
+
+
+  "advancements.musical_world.root.title": "Musical World",
+  "advancements.musical_world.root.description": "A world of music has opened up too you.",
+
+  "advancements.musical_world.obtain_cat.title": "Doesn't actually meow",
+  "advancements.musical_world.obtain_cat.description": "Obtain the music disc for Cat.",
+
+  "advancements.musical_world.obtain_13.title": "Kinda Spooky",
+  "advancements.musical_world.obtain_13.description": "Obtain the music disc for 13.",
+
+  "advancements.musical_world.obtain_og_discs.title": "Longer than the rest",
+  "advancements.musical_world.obtain_og_discs.description": "Obtain both of the oldest discs.",
+
+  "advancements.musical_world.obtain_a_creeper_disc.title": "Well that's strange",
+  "advancements.musical_world.obtain_a_creeper_disc.description": "Obtain a disc exclusively dropped when a creeper shoots a skeleton.",
+
+  "advancements.musical_world.obtain_all_creeper_discs.title": "An Explosive Collection",
+  "advancements.musical_world.obtain_all_creeper_discs.description": "Obtain all discs exclusively dropped when a creeper shoots a skeleton.",
+
+  "advancements.musical_world.obtain_disc_fragment_5.title": "What's this?",
+  "advancements.musical_world.obtain_disc_fragment_5.description": "Obtain a disc fragment. Now find some more.",
+
+  "advancements.musical_world.obtain_5.title": "Was it worth it?",
+  "advancements.musical_world.obtain_5.description": "Obtain the music disc for 5.",
+
+  "advancements.musical_world.obtain_number_discs.title": "There's a story here",
+  "advancements.musical_world.obtain_number_discs.description": "Obtain all numbered discs. But what story are they trying to tell?",
+
+  "advancements.musical_world.obtain_pigstep.title": "Pork Rave",
+  "advancements.musical_world.obtain_pigstep.description": "Obtain the music disc for pigstep.",
+
+  "advancements.musical_world.obtain_relic.title": "Music of the past",
+  "advancements.musical_world.obtain_relic.description": "Obtain the music disc for relic.",
+
+  "advancements.musical_world.obtain_otherside.title": "How many dungeons?",
+  "advancements.musical_world.obtain_otherside.description": "Obtain the music disc for otherside.",
+
+  "advancements.musical_world.obtain_all_vanilla_discs.title": "The music of Minecraft",
+  "advancements.musical_world.obtain_all_vanilla_discs.description": "Obtain all vanilla music discs.",
+
+  "advancements.musical_world.obtain_all_mod_discs.title": "Encore!",
+  "advancements.musical_world.obtain_all_mod_discs.description": "Obtain all modded music discs."
+
+}

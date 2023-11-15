@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SRS",
+    " S "
+  ],
+  "result": {
+    "item": "blindsmusicdiscs:small_acacia_jukebox"
+  },
+  "show_notification": true
+}

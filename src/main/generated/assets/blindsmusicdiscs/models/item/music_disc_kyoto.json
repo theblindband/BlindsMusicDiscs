@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "blindsmusicdiscs:item/music_disc_kyoto"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "blindsmusicdiscs:composers_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1573920475,
+
+    "spacing": 60,
+
+    "separation": 18,
+
+    "type": "minecraft:random_spread"
+  }
+}

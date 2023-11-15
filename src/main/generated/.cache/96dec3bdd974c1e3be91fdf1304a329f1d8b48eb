@@ -1,0 +1,6 @@
+// 1.20.2	2023-11-15T17:44:21.9623207	Blind's Music Discs/Tags for minecraft:item
+9279b19b444daf3cc12d18e580777900e0402033 data\minecraft\tags\items\music_discs.json
+23d21e9fafbd90c77105402db69f7bf449b3ba48 data\minecraft\tags\items\creeper_drop_music_discs.json
+36780ddbdd03bd0688e2ac4d4c5b61cd190c2fb1 data\blindsmusicdiscs\tags\items\mod_music_discs.json
+f16e346ba80118c909a9a48566c5b8622f9cdbd2 data\blindsmusicdiscs\tags\items\small_jukeboxes.json
+959a69d85b338abb03c893ed7ad4513cf8968c95 data\blindsmusicdiscs\tags\items\mod_creeper_drop_music_discs.json

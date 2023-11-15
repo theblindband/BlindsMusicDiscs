@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SRS",
+    " S "
+  ],
+  "result": {
+    "item": "blindsmusicdiscs:small_dark_oak_jukebox"
+  },
+  "show_notification": true
+}

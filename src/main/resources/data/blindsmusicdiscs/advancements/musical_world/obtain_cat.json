@@ -1,0 +1,37 @@
+{
+  "parent": "blindsmusicdiscs:musical_world/root",
+  "criteria": {
+    "obtain_cat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_cat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.musical_world.obtain_cat.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:music_disc_cat"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.musical_world.obtain_cat.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_cat"
+    ]
+  ]
+}

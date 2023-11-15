@@ -1,0 +1,67 @@
+{
+  "parent": "blindsmusicdiscs:musical_world/obtain_5",
+  "criteria": {
+    "obtain_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_13"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_5"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.musical_world.obtain_number_discs.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.musical_world.obtain_number_discs.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_13"
+    ],
+    [
+      "obtain_5"
+    ],
+    [
+      "obtain_11"
+    ]
+  ]
+}

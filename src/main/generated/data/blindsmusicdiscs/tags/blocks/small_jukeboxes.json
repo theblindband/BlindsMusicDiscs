@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "blindsmusicdiscs:small_oak_jukebox",
+    "blindsmusicdiscs:small_birch_jukebox",
+    "blindsmusicdiscs:small_spruce_jukebox",
+    "blindsmusicdiscs:small_jungle_jukebox",
+    "blindsmusicdiscs:small_acacia_jukebox",
+    "blindsmusicdiscs:small_dark_oak_jukebox",
+    "blindsmusicdiscs:small_mangrove_jukebox",
+    "blindsmusicdiscs:small_cherry_jukebox",
+    "blindsmusicdiscs:small_crimson_jukebox",
+    "blindsmusicdiscs:small_warped_jukebox"
+  ]
+}

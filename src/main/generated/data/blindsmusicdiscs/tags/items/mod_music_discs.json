@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "blindsmusicdiscs:music_disc_door",
+    "blindsmusicdiscs:music_disc_chris",
+    "blindsmusicdiscs:music_disc_death",
+    "blindsmusicdiscs:music_disc_flake",
+    "blindsmusicdiscs:music_disc_droopy_likes_your_face",
+    "blindsmusicdiscs:music_disc_intro",
+    "blindsmusicdiscs:music_disc_kyoto",
+    "blindsmusicdiscs:music_disc_sweden",
+    "blindsmusicdiscs:music_disc_wet_hands",
+    "#blindsmusicdiscs:mod_creeper_drop_music_discs"
+  ]
+}

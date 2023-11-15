@@ -1,0 +1,172 @@
+{
+  "parent": "blindsmusicdiscs:musical_world/obtain_all_vanilla_discs",
+  "criteria": {
+    "obtain_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_death": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_death"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_wet_hands": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_wet_hands"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_chris": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_chris"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_sweden": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_sweden"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_dog": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_dog"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_droopy_likes_your_face": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_droopy_likes_your_face"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_flake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_flake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_kyoto": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_kyoto"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_intro": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blindsmusicdiscs:music_disc_intro"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.musical_world.obtain_all_mod_discs.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "blindsmusicdiscs:music_disc_sweden"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.musical_world.obtain_all_mod_discs.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_door"
+    ],
+    [
+      "obtain_death"
+    ],
+    [
+      "obtain_wet_hands"
+    ],
+    [
+      "obtain_chris"
+    ],
+    [
+      "obtain_sweden"
+    ],
+    [
+      "obtain_dog"
+    ],
+    [
+      "obtain_droopy_likes_your_face"
+    ],
+    [
+      "obtain_flake"
+    ],
+    [
+      "obtain_kyoto"
+    ],
+    [
+      "obtain_intro"
+    ]
+  ]
+}
