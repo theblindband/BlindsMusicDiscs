@@ -16,13 +16,12 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
-        //Block models here
+        //Block models so far are all custom so no models are generated.
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
         //Item models here
         itemModelGenerator.register(ModItems.MUSIC_DISC_DOOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_CHIRS, Models.GENERATED);
@@ -34,6 +33,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MUSIC_DISC_KYOTO, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_SWEDEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_WET_HANDS, Models.GENERATED);
-
     }
 }

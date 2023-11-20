@@ -1,18 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_diamond": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diamond"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_jungle_log": {
       "conditions": {
         "items": [
@@ -27,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:small_jungle_jukebox"
+        "recipe": "blindsmusicdiscs:small_jungle_jukebox"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -35,13 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_jungle_log",
-      "has_diamond"
+      "has_jungle_log"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:small_jungle_jukebox"
+      "blindsmusicdiscs:small_jungle_jukebox"
     ]
   },
   "sends_telemetry_event": false

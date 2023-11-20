@@ -9,6 +9,9 @@ import net.theblindbandit6.blindsmusicdiscs.BlindsMusicDiscs;
 
 public class ModTags {
     public static class Blocks {
+        //This tag is used for when a music disc checks if the block it's being used on can play a music disc
+        public static final TagKey<Block> JUKEBOXES =
+                createTag("jukeboxes");
         public static final TagKey<Block> SMALL_JUKEBOXES =
                 createTag("small_jukeboxes");
 
@@ -22,6 +25,8 @@ public class ModTags {
                 createTag("mod_creeper_drop_music_discs");
         public static final TagKey<Item> MOD_MUSIC_DISCS =
                 createTag("mod_music_discs");
+        public static final TagKey<Item> JUKEBOXES =
+                createTag("jukeboxes");
         public static final TagKey<Item> SMALL_JUKEBOXES =
                 createTag("small_jukeboxes");
 

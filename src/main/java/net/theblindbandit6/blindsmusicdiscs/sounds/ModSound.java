@@ -8,6 +8,7 @@ import net.theblindbandit6.blindsmusicdiscs.BlindsMusicDiscs;
 
 public class ModSound {
 
+    //Mod sounds for each song added by the music disc
     public static final SoundEvent DOOR = registerSoundEvent("music_disc.music_door");
     public static final SoundEvent DEATH = registerSoundEvent("music_disc.music_death");
     public static final SoundEvent WET_HANDS = registerSoundEvent("music_disc.music_wet_hands");
@@ -25,6 +26,6 @@ public class ModSound {
     }
 
     public static void registerSounds() {
-        BlindsMusicDiscs.LOGGER.info("Registering Sounds for " + BlindsMusicDiscs.MOD_ID);
+        //BlindsMusicDiscs.LOGGER.info("Registering Sounds for Blind's Music Discs");
     }
 }

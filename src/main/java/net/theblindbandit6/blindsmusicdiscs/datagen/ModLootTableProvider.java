@@ -11,7 +11,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-
         //Loot tables here
         addDrop(ModBlocks.SMALL_OAK_JUKEBOX);
         addDrop(ModBlocks.SMALL_BIRCH_JUKEBOX);
@@ -23,6 +22,5 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMALL_CHERRY_JUKEBOX);
         addDrop(ModBlocks.SMALL_CRIMSON_JUKEBOX);
         addDrop(ModBlocks.SMALL_WARPED_JUKEBOX);
-
     }
 }

@@ -40,7 +40,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(BlindsMusicDiscs.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        BlindsMusicDiscs.LOGGER.info("Registering Mod Items for Blind's Music Discs.");
+        //BlindsMusicDiscs.LOGGER.info("Registering Mod Items for Blind's Music Discs.");
     }
 
 }

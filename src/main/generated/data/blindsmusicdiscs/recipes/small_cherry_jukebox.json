@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
+    "D": {
       "item": "minecraft:diamond"
     },
-    "S": {
+    "L": {
       "item": "minecraft:cherry_log"
     }
   },
   "pattern": [
-    " S ",
-    "SRS",
-    " S "
+    " L ",
+    "LDL",
+    " L "
   ],
   "result": {
     "item": "blindsmusicdiscs:small_cherry_jukebox"

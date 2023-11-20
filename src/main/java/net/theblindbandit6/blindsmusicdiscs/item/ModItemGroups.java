@@ -42,7 +42,7 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerModItemGroups() {
-        BlindsMusicDiscs.LOGGER.info("Registering Item Groups for Blind's Music Discs.");
+        //BlindsMusicDiscs.LOGGER.info("Registering Item Groups for Blind's Music Discs.");
     }
 
 }

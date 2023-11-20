@@ -3,12 +3,14 @@
 	"id": "blindsmusicdiscs",
 	"version": "${version}",
 	"name": "Blind's Music Discs",
-	"description": "Some additional Music Discs for your enjoyment or disappointment as well as a new jukebox to play them in.",
+	"description": "Some additional Music Discs as well as a new type jukebox to play them in.",
 	"authors": [
-		"TheBlindBandit6"
+		"Mod by TheBlindBandit6",
+		"Music by C418"
 	],
 	"contact": {
-		"homepage": ""
+		"homepage": "https://modrinth.com/mod/blinds-music-discs",
+		"issues": "https://github.com/theblindband/BlindsMusicDiscs/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/blindsmusicdiscs/icon.png",

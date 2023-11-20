@@ -2,6 +2,7 @@ package net.theblindbandit6.blindsmusicdiscs.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
@@ -17,14 +18,18 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-
         //Item Tags here
         //Vanilla
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .addTag(ModTags.Items.MOD_MUSIC_DISCS);
+        //Adds drops for creepers
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .addTag(ModTags.Items.MOD_CREEPER_DROP_MUSIC_DISCS);
         //Modded
+        //These tags are used in advancements
+        getOrCreateTagBuilder(ModTags.Items.JUKEBOXES)
+                .add(Blocks.JUKEBOX.asItem())
+                .addTag(ModTags.Items.SMALL_JUKEBOXES);
         getOrCreateTagBuilder(ModTags.Items.SMALL_JUKEBOXES)
                 .add(ModBlocks.SMALL_OAK_JUKEBOX.asItem())
                 .add(ModBlocks.SMALL_BIRCH_JUKEBOX.asItem())

@@ -19,12 +19,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-
         //Block Tags here
         //Vanilla
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .addTag(ModTags.Blocks.SMALL_JUKEBOXES);
         //Modded
+        //Jukeboxes tag is used when music discs check what block they are being used on
+        getOrCreateTagBuilder(ModTags.Blocks.JUKEBOXES)
+                .add(Blocks.JUKEBOX)
+                .addTag(ModTags.Blocks.SMALL_JUKEBOXES);
         getOrCreateTagBuilder(ModTags.Blocks.SMALL_JUKEBOXES)
                 .add(ModBlocks.SMALL_OAK_JUKEBOX)
                 .add(ModBlocks.SMALL_BIRCH_JUKEBOX)
@@ -36,6 +39,5 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMALL_CHERRY_JUKEBOX)
                 .add(ModBlocks.SMALL_CRIMSON_JUKEBOX)
                 .add(ModBlocks.SMALL_WARPED_JUKEBOX);
-
     }
 }
