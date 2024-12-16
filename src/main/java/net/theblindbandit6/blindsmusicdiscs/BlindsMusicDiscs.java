@@ -2,6 +2,7 @@ package net.theblindbandit6.blindsmusicdiscs;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.theblindbandit6.blindsmusicdiscs.block.ModBlockEntityTypes;
 import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
 import net.theblindbandit6.blindsmusicdiscs.item.ModItemGroups;
 import net.theblindbandit6.blindsmusicdiscs.item.ModItems;
@@ -19,6 +20,7 @@ public class BlindsMusicDiscs implements ModInitializer {
 		ModItemGroups.registerModItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntityTypes.register();
 		ModSound.registerSounds();
 	}
 }

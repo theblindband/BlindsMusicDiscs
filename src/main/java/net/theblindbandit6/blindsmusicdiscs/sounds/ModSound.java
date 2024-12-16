@@ -21,7 +21,7 @@ public class ModSound {
     public static final SoundEvent INTRO =  registerSoundEvent("music_disc.music_intro");
 
     private static SoundEvent registerSoundEvent(String name) {
-        Identifier id = new Identifier(BlindsMusicDiscs.MOD_ID, name);
+        Identifier id = Identifier.of(BlindsMusicDiscs.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 

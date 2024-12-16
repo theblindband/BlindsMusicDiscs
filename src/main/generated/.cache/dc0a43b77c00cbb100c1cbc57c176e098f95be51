@@ -1,0 +1,6 @@
+// 1.21.4	-999999999-01-01T00:00:00	BlindsMusicDiscs/Tags for minecraft:item
+cc4fa160bdb1389a0998e0b549d0a843d02a130a data/blindsmusicdiscs/tags/item/jukeboxes.json
+b889e8b785b84ace64edc0c7c1c292c37a37cd91 data/blindsmusicdiscs/tags/item/mod_creeper_drop_music_discs.json
+3289ca9e013aab12986fedbf21a55a9ac2994816 data/blindsmusicdiscs/tags/item/mod_music_discs.json
+e35b2d2e3466197cc134947fe86e68c25d1148f1 data/blindsmusicdiscs/tags/item/small_jukeboxes.json
+c0562660446924c470433c664d0895a545493cbf data/minecraft/tags/item/creeper_drop_music_discs.json

@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.ItemTags;
 import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
 import net.theblindbandit6.blindsmusicdiscs.item.ModItems;
 import net.theblindbandit6.blindsmusicdiscs.util.ModTags;

@@ -3,47 +3,43 @@ package net.theblindbandit6.blindsmusicdiscs.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.recipe.*;
-import net.minecraft.item.ItemConvertible;
+import net.minecraft.data.recipe.RecipeExporter;
+import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.util.Identifier;
+import net.minecraft.registry.RegistryWrapper;
 import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
 
+import java.util.concurrent.CompletableFuture;
+
+import static net.minecraft.data.recipe.RecipeGenerator.hasItem;
+
 public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output) {
-        super(output);
+    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(output, registriesFuture);
     }
 
     @Override
-    public void generate(RecipeExporter exporter) {
+    protected RecipeGenerator getRecipeGenerator(RegistryWrapper.WrapperLookup wrapperLookup, RecipeExporter recipeExporter) {
+        return new RecipeGenerator(wrapperLookup, recipeExporter) {
+            @Override
+            public void generate() {
+                //Icecutter
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMALL_ACACIA_JUKEBOX)
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.ACACIA_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Blocks.BLUE_ICE), conditionsFromItem(Blocks.BLUE_ICE))
+                        .offerTo(exporter);
 
-        //Recipes here
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_OAK_JUKEBOX, Blocks.OAK_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_BIRCH_JUKEBOX, Blocks.BIRCH_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_SPRUCE_JUKEBOX, Blocks.SPRUCE_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_JUNGLE_JUKEBOX, Blocks.JUNGLE_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_ACACIA_JUKEBOX, Blocks.ACACIA_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_DARK_OAK_JUKEBOX, Blocks.DARK_OAK_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_MANGROVE_JUKEBOX, Blocks.MANGROVE_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_CHERRY_JUKEBOX, Blocks.CHERRY_LOG);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_CRIMSON_JUKEBOX, Blocks.CRIMSON_STEM);
-        offerSmallJukeboxRecipe(exporter, ModBlocks.SMALL_WARPED_JUKEBOX, Blocks.WARPED_STEM);
-
+            }
+        };
     }
 
-    //This is the recipe provider for the small jukeboxes
-    public static void offerSmallJukeboxRecipe(RecipeExporter exporter, ItemConvertible output, ItemConvertible input) {
-        ModRecipeProvider.getSmallJukeboxRecipe(output, Ingredient.ofItems(input)).criterion(RecipeProvider.hasItem(input), RecipeProvider.conditionsFromItem(input)).offerTo(exporter);
-    }
-    public static CraftingRecipeJsonBuilder getSmallJukeboxRecipe(ItemConvertible output, Ingredient input) {
-        return ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, 1)
-                .input(Character.valueOf('L'), input)
-                .input(Character.valueOf('D'), Items.DIAMOND)
-                .pattern(" L ")
-                .pattern("LDL")
-                .pattern(" L ");
+    @Override
+    public String getName() {
+        return "";
     }
 }

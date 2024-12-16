@@ -3,7 +3,6 @@ package net.theblindbandit6.blindsmusicdiscs.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -13,7 +12,7 @@ import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup BLINDS_MUSIC_DISCS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(BlindsMusicDiscs.MOD_ID, "blindsmusicdiscs"),
+            Identifier.of(BlindsMusicDiscs.MOD_ID, "blindsmusicdiscs"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blindsmusicdiscs"))
                     .icon(() -> new ItemStack(ModItems.MUSIC_DISC_DOOR)).entries((displayContext, entries) -> {
 
@@ -44,5 +43,4 @@ public class ModItemGroups {
     public static void registerModItemGroups() {
         //BlindsMusicDiscs.LOGGER.info("Registering Item Groups for Blind's Music Discs.");
     }
-
 }

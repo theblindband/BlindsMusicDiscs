@@ -2,25 +2,21 @@
 	"schemaVersion": 1,
 	"id": "blindsmusicdiscs",
 	"version": "${version}",
-	"name": "Blind's Music Discs",
-	"description": "Some additional Music Discs as well as a new type jukebox to play them in.",
+	"name": "BlindsMusicDiscs",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Mod by TheBlindBandit6",
-		"Music by C418"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/blinds-music-discs",
-		"issues": "https://github.com/theblindband/BlindsMusicDiscs/issues"
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/blindsmusicdiscs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.theblindbandit6.blindsmusicdiscs.BlindsMusicDiscs"
-		],
-		"client": [
-			"net.theblindbandit6.blindsmusicdiscs.BlindsMusicDiscsClient"
 		],
 		"fabric-datagen": [
 			"net.theblindbandit6.blindsmusicdiscs.BlindsMusicDiscsDataGenerator"
@@ -30,9 +26,9 @@
 		"blindsmusicdiscs.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.24",
-		"minecraft": "~1.20",
-		"java": ">=17",
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {

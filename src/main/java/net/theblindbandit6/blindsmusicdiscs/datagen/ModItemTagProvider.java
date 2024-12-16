@@ -20,8 +20,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         //Item Tags here
         //Vanilla
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .addTag(ModTags.Items.MOD_MUSIC_DISCS);
+        //getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+        //        .addTag(ModTags.Items.MOD_MUSIC_DISCS);
         //Adds drops for creepers
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .addTag(ModTags.Items.MOD_CREEPER_DROP_MUSIC_DISCS);

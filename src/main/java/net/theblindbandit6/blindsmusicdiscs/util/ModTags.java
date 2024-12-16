@@ -16,7 +16,7 @@ public class ModTags {
                 createTag("small_jukeboxes");
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(BlindsMusicDiscs.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(BlindsMusicDiscs.MOD_ID, name));
         }
     }
 
@@ -31,7 +31,7 @@ public class ModTags {
                 createTag("small_jukeboxes");
 
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(BlindsMusicDiscs.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(BlindsMusicDiscs.MOD_ID, name));
         }
     }
 }

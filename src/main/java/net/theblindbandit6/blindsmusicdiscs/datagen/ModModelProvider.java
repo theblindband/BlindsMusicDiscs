@@ -1,11 +1,10 @@
 package net.theblindbandit6.blindsmusicdiscs.datagen;
 
+import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
-import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
+import net.minecraft.client.data.BlockStateModelGenerator;
+import net.minecraft.client.data.ItemModelGenerator;
+import net.minecraft.client.data.Models;
 import net.theblindbandit6.blindsmusicdiscs.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -16,13 +15,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
-        //Block models so far are all custom so no models are generated.
-
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        //Item models here
         itemModelGenerator.register(ModItems.MUSIC_DISC_DOOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_CHIRS, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_DEATH, Models.GENERATED);
