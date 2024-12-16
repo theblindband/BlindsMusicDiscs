@@ -15,6 +15,12 @@ import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 import net.theblindbandit6.blindsmusicdiscs.util.ModTags;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+
+import static net.minecraft.util.ActionResult.PASS;
+import static net.minecraft.util.ActionResult.success;
 
 @Mixin(MusicDiscItem.class)
 public class MusicDiscItemMixin
@@ -23,13 +29,13 @@ public class MusicDiscItemMixin
 
 	//Overrides the useOnBlock method in the MusicDiscItem class
 	//This has been changed to make music discs check for the Jukeboxes tag rather than specifically the Jukebox block
-	@Override
-	public ActionResult useOnBlock(ItemUsageContext context) {
+	@Inject(at = @At(value = "RETURN"), method = "useOnBlock", cancellable = true)
+	public void useOnBlock(ItemUsageContext context, CallbackInfoReturnable<ActionResult> cir) {
 		BlockPos blockPos;
 		World world = context.getWorld();
 		BlockState blockState = world.getBlockState(blockPos = context.getBlockPos());
 		if(!world.getBlockState(blockPos).isIn(ModTags.Blocks.JUKEBOXES) || blockState.get(JukeboxBlock.HAS_RECORD).booleanValue()){
-			return ActionResult.PASS;
+			cir.setReturnValue(PASS);
 		}
 		ItemStack itemStack = context.getStack();
 		if (!world.isClient) {
@@ -45,6 +51,6 @@ public class MusicDiscItemMixin
 				playerEntity.incrementStat(Stats.PLAY_RECORD);
 			}
 		}
-		return ActionResult.success(world.isClient);
+		cir.setReturnValue(ActionResult.success(world.isClient));
 	}
 }
