@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "item.blindsmusicdiscs.music_disc_death.desc"
+  },
+  "length_in_seconds": 41.0,
+  "sound_event": "blindsmusicdiscs:music_disc.death"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:blindsmusicdiscs/obtain_pigstep",
+  "criteria": {
+    "obtain_otherside": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_otherside"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.musical_world.obtain_otherside.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_otherside"
+    },
+    "title": {
+      "translate": "advancements.musical_world.obtain_otherside.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_otherside"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

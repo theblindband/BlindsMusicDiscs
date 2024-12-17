@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.blindsmusicdiscs.music_disc_door.desc"
+  },
+  "length_in_seconds": 111.0,
+  "sound_event": "blindsmusicdiscs:music_disc.door"
+}

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "blindsmusicdiscs:block/small_oak_jukebox"
+    "model": "blindsmusicdiscs:block/small_oak_jukebox_closed"
   }
 }

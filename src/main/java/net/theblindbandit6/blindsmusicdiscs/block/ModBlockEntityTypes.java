@@ -15,7 +15,17 @@ public class ModBlockEntityTypes {
 
     public static final BlockEntityType<SmallJukeboxBlockEntity> SMALL_JUKEBOX_BLOCK_ENTITY = register(
             "small_jukebox_block_entity", FabricBlockEntityTypeBuilder.create(SmallJukeboxBlockEntity::new,
-                            ModBlocks.SMALL_OAK_JUKEBOX)
+                            ModBlocks.SMALL_OAK_JUKEBOX,
+                            ModBlocks.SMALL_BIRCH_JUKEBOX,
+                            ModBlocks.SMALL_SPRUCE_JUKEBOX,
+                            ModBlocks.SMALL_JUNGLE_JUKEBOX,
+                            ModBlocks.SMALL_ACACIA_JUKEBOX,
+                            ModBlocks.SMALL_DARK_OAK_JUKEBOX,
+                            ModBlocks.SMALL_MANGROVE_JUKEBOX,
+                            ModBlocks.SMALL_CHERRY_JUKEBOX,
+                            ModBlocks.SMALL_PALE_OAK_JUKEBOX,
+                            ModBlocks.SMALL_CRIMSON_JUKEBOX,
+                            ModBlocks.SMALL_WARPED_JUKEBOX)
                     .build()
     );
 

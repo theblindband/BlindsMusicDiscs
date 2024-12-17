@@ -1,0 +1,57 @@
+{
+  "criteria": {
+    "discs_fragments": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:disc_fragment_5"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "jukeboxes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#blindsmusicdiscs:jukeboxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_discs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#blindsmusicdiscs:music_discs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "blindsmusicdiscs:textures/gui/advancements/backgrounds/musical_world.png",
+    "description": {
+      "translate": "advancements.musical_world.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:jukebox"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.musical_world.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "jukeboxes",
+      "music_discs",
+      "discs_fragments"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

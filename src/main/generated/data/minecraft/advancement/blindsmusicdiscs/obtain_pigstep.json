@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:blindsmusicdiscs/root",
+  "criteria": {
+    "obtain_pigstep": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_pigstep"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.musical_world.obtain_pigstep.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "translate": "advancements.musical_world.obtain_pigstep.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_pigstep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

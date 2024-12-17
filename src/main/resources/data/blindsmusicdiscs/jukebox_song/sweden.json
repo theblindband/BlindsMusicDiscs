@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.blindsmusicdiscs.music_disc_sweden.desc"
+  },
+  "length_in_seconds": 215.0,
+  "sound_event": "blindsmusicdiscs:music_disc.sweden"
+}

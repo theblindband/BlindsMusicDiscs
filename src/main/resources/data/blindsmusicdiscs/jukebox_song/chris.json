@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.blindsmusicdiscs.music_disc_chris.desc"
+  },
+  "length_in_seconds": 87.0,
+  "sound_event": "blindsmusicdiscs:music_disc.chris"
+}

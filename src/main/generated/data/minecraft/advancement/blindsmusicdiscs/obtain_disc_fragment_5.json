@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:blindsmusicdiscs/root",
+  "criteria": {
+    "obtain_disc_fragment_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:disc_fragment_5"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.musical_world.obtain_disc_fragment_5.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:disc_fragment_5"
+    },
+    "title": {
+      "translate": "advancements.musical_world.obtain_disc_fragment_5.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_disc_fragment_5"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

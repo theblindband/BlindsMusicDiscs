@@ -6,7 +6,7 @@ import net.theblindbandit6.blindsmusicdiscs.block.ModBlockEntityTypes;
 import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
 import net.theblindbandit6.blindsmusicdiscs.item.ModItemGroups;
 import net.theblindbandit6.blindsmusicdiscs.item.ModItems;
-import net.theblindbandit6.blindsmusicdiscs.sounds.ModSound;
+import net.theblindbandit6.blindsmusicdiscs.sounds.ModSoundEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,6 +21,6 @@ public class BlindsMusicDiscs implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBlockEntityTypes.register();
-		ModSound.registerSounds();
+		ModSoundEvents.registerSounds();
 	}
 }

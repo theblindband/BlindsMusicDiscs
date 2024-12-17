@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "blindsmusicdiscs:block/small_mangrove_jukebox"
+    "model": "blindsmusicdiscs:block/small_mangrove_jukebox_closed"
   }
 }

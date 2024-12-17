@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "blindsmusicdiscs:block/small_crimson_jukebox"
+    "model": "blindsmusicdiscs:block/small_crimson_jukebox_closed"
   }
 }

@@ -21,6 +21,8 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> MUSIC_DISCS =
+                createTag("music_discs");
         public static final TagKey<Item> MOD_CREEPER_DROP_MUSIC_DISCS =
                 createTag("mod_creeper_drop_music_discs");
         public static final TagKey<Item> MOD_MUSIC_DISCS =

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:blindsmusicdiscs/obtain_13",
+  "criteria": {
+    "obtain_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_13"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_cat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_cat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.musical_world.obtain_og_discs.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "advancements.musical_world.obtain_og_discs.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_cat"
+    ],
+    [
+      "obtain_13"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

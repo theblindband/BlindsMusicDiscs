@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:blindsmusicdiscs/obtain_a_trial_chamber_discs",
+  "criteria": {
+    "obtain_creator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_creator_music_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator_music_box"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_precipice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_precipice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.musical_world.obtain_all_trial_chamber_discs.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_precipice"
+    },
+    "title": {
+      "translate": "advancements.musical_world.obtain_all_trial_chamber_discs.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_creator"
+    ],
+    [
+      "obtain_creator_music_box"
+    ],
+    [
+      "obtain_precipice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

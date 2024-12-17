@@ -36,6 +36,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMALL_DARK_OAK_JUKEBOX)
                 .add(ModBlocks.SMALL_MANGROVE_JUKEBOX)
                 .add(ModBlocks.SMALL_CHERRY_JUKEBOX)
+                .add(ModBlocks.SMALL_PALE_OAK_JUKEBOX)
                 .add(ModBlocks.SMALL_CRIMSON_JUKEBOX)
                 .add(ModBlocks.SMALL_WARPED_JUKEBOX);
     }

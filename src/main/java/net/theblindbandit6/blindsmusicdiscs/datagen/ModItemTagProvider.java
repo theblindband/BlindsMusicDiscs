@@ -3,6 +3,7 @@ package net.theblindbandit6.blindsmusicdiscs.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.theblindbandit6.blindsmusicdiscs.block.ModBlocks;
@@ -20,8 +21,27 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         //Item Tags here
         //Vanilla
-        //getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-        //        .addTag(ModTags.Items.MOD_MUSIC_DISCS);
+        getOrCreateTagBuilder(ModTags.Items.MUSIC_DISCS)
+                .add(Items.MUSIC_DISC_13)
+                .add(Items.MUSIC_DISC_CAT)
+                .add(Items.MUSIC_DISC_BLOCKS)
+                .add(Items.MUSIC_DISC_CHIRP)
+                .add(Items.MUSIC_DISC_FAR)
+                .add(Items.MUSIC_DISC_MALL)
+                .add(Items.MUSIC_DISC_MELLOHI)
+                .add(Items.MUSIC_DISC_STAL)
+                .add(Items.MUSIC_DISC_STRAD)
+                .add(Items.MUSIC_DISC_WARD)
+                .add(Items.MUSIC_DISC_11)
+                .add(Items.MUSIC_DISC_WAIT)
+                .add(Items.MUSIC_DISC_OTHERSIDE)
+                .add(Items.MUSIC_DISC_5)
+                .add(Items.MUSIC_DISC_PIGSTEP)
+                .add(Items.MUSIC_DISC_RELIC)
+                .add(Items.MUSIC_DISC_CREATOR)
+                .add(Items.MUSIC_DISC_CREATOR_MUSIC_BOX)
+                .add(Items.MUSIC_DISC_PRECIPICE)
+                .addTag(ModTags.Items.MOD_MUSIC_DISCS);
         //Adds drops for creepers
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .addTag(ModTags.Items.MOD_CREEPER_DROP_MUSIC_DISCS);
@@ -39,6 +59,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
                 .add(ModBlocks.SMALL_DARK_OAK_JUKEBOX.asItem())
                 .add(ModBlocks.SMALL_MANGROVE_JUKEBOX.asItem())
                 .add(ModBlocks.SMALL_CHERRY_JUKEBOX.asItem())
+                .add(ModBlocks.SMALL_PALE_OAK_JUKEBOX.asItem())
                 .add(ModBlocks.SMALL_CRIMSON_JUKEBOX.asItem())
                 .add(ModBlocks.SMALL_WARPED_JUKEBOX.asItem());
         getOrCreateTagBuilder(ModTags.Items.MOD_MUSIC_DISCS)

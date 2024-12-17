@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.blindsmusicdiscs.music_disc_dog.desc"
+  },
+  "length_in_seconds": 146.0,
+  "sound_event": "blindsmusicdiscs:music_disc.dog"
+}

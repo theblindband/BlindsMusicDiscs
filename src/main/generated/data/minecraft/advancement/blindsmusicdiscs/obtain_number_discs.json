@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:blindsmusicdiscs/obtain_5",
+  "criteria": {
+    "obtain_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_13"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_5"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.musical_world.obtain_number_discs.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_11"
+    },
+    "title": {
+      "translate": "advancements.musical_world.obtain_number_discs.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_5"
+    ],
+    [
+      "obtain_13"
+    ],
+    [
+      "obtain_11"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

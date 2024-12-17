@@ -24,16 +24,94 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeGenerator(wrapperLookup, recipeExporter) {
             @Override
             public void generate() {
-                //Icecutter
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMALL_ACACIA_JUKEBOX)
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_OAK_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.OAK_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_BIRCH_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.BIRCH_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_SPRUCE_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.SPRUCE_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_JUNGLE_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.JUNGLE_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_ACACIA_JUKEBOX).group("small_jukeboxes")
                         .pattern(" R ")
                         .pattern("RSR")
                         .pattern(" R ")
                         .input('R', Blocks.ACACIA_LOG)
                         .input('S', Items.DIAMOND)
-                        .criterion(hasItem(Blocks.BLUE_ICE), conditionsFromItem(Blocks.BLUE_ICE))
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                         .offerTo(exporter);
-
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_DARK_OAK_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.DARK_OAK_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_MANGROVE_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.MANGROVE_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_CHERRY_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.CHERRY_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_PALE_OAK_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.PALE_OAK_LOG)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_CRIMSON_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.CRIMSON_HYPHAE)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.DECORATIONS, ModBlocks.SMALL_WARPED_JUKEBOX).group("small_jukeboxes")
+                        .pattern(" R ")
+                        .pattern("RSR")
+                        .pattern(" R ")
+                        .input('R', Blocks.WARPED_HYPHAE)
+                        .input('S', Items.DIAMOND)
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
             }
         };
     }

@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_DARK_OAK_JUKEBOX);
                         entries.add(ModBlocks.SMALL_MANGROVE_JUKEBOX);
                         entries.add(ModBlocks.SMALL_CHERRY_JUKEBOX);
+                        entries.add(ModBlocks.SMALL_PALE_OAK_JUKEBOX);
                         entries.add(ModBlocks.SMALL_CRIMSON_JUKEBOX);
                         entries.add(ModBlocks.SMALL_WARPED_JUKEBOX);
 

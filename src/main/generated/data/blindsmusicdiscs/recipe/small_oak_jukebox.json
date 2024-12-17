@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "small_jukeboxes",
+  "key": {
+    "R": "minecraft:oak_log",
+    "S": "minecraft:diamond"
+  },
+  "pattern": [
+    " R ",
+    "RSR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "blindsmusicdiscs:small_oak_jukebox"
+  }
+}
